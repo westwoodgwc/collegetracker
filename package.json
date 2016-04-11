@@ -1,0 +1,13 @@
+{
+  "name": "collegetracker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": "",
+  "author": "",
+  "dependencies": {
+    "chance": "^1.0.1",
+    "express": "~3.2.4",
+    "hbs": "^4.0.0"
+  }
+}

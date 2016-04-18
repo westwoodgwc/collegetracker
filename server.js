@@ -3,10 +3,14 @@ var path = require('path');
 
 var express = require('express');
 
+var Chance = require('chance'),
+    chance = new Chance();
+    
 var router = express();
 var server = http.createServer(router);
 
 router.use(express.static(path.resolve(__dirname, 'client')));
+
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
   var addr = server.address();
@@ -30,3 +34,20 @@ router.get('/', function (req,res) {
     schools: schools
   });
 });
+
+
+router.get('/random', function (req, res) {
+  res.render('stressed.hbs', {
+    
+    quote: chance.pickone(['Good job', 'Keep going', 'Don\'t worry, you\'ll get there', 'Winners never quit, and quitters never win',
+    'You can do this!', 'Think of a puppy wearing sunglasses', 'Remember that person who gave up? Neither does anyone else', 
+    'Every wrong attempt discarded is a step forward', 'Sometimes adversity is what you need to face in order to become successful'
+    ]),
+    
+    author: "inspirational quote"
+  });
+});
+
+
+
+

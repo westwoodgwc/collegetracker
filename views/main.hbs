@@ -8,13 +8,16 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
     
     <div data-role="header">
-      <h1>College Tracker</h1>
+      <h1 id="title"> <b id="title1">College</b>Tracker</h1>
     </div>
     
     
@@ -23,8 +26,8 @@
         <li>
             <a href="/college/{{id}}">
                 <img src="{{imageurl}}">
-                <h2>{{collegename}}</h2>
-                <p>{{duedate}}</p>
+                <h2 id = "heading">{{collegename}}</h2>
+                <p id = "college">{{duedate}}</p>
             </a>
         </li>
         {{/each}}

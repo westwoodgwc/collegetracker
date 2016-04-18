@@ -1,3 +1,4 @@
+
 .stressedButton
 {
     font-size: 18px;
@@ -56,4 +57,16 @@ h2
     color: gray;
     font-family: "Merriweather", bold;
     font-size: 110%;
+}
+#stressedButton {
+    font-size: 120%;
+}
+
+.ui-li-has-thumb>img:first-child,
+.ui-listview .ui-li-has-thumb>.ui-btn>img:first-child,
+.ui-listview .ui-li-has-thumb .ui-li-thumb {
+    height: 100%;
+    max-height: none;
+    max-width: none;
+
 }

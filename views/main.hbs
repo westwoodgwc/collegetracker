@@ -15,7 +15,6 @@
 
 
 <body>
-    
     <div data-role="header">
       <h1 id="title"> <b id="title1">College</b>Tracker</h1>
     </div>
@@ -26,8 +25,10 @@
         <li>
             <a href="/college/{{id}}">
                 <img src="{{imageurl}}">
-                <h2 id = "heading">{{collegename}}</h2>
-                <p id = "college">{{duedate}}</p>
+                <h2 id="heading">{{collegename}}</h2>
+                <p id ="college">Early Decision: {{duedate.ed_due_date}}</br>
+                Regular Decision: {{duedate.due_date}}</p>
+
             </a>
         </li>
         {{/each}}

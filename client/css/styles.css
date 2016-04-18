@@ -1,3 +1,11 @@
 #stressedButton {
     font-size: 120%;
 }
+
+.ui-li-has-thumb>img:first-child,
+.ui-listview .ui-li-has-thumb>.ui-btn>img:first-child,
+.ui-listview .ui-li-has-thumb .ui-li-thumb {
+    height: 100%;
+    max-height: none;
+    max-width: none;
+}

@@ -12,7 +12,6 @@
 
 
 <body>
-    
     <div data-role="header">
       <h1>College Tracker</h1>
     </div>
@@ -24,7 +23,8 @@
             <a href="/college/{{id}}">
                 <img src="{{imageurl}}">
                 <h2>{{collegename}}</h2>
-                <p>{{duedate}}</p>
+                <p>Early Decision: {{duedate.ed_due_date}}</br>
+                Regular Decision: {{duedate.due_date}}</p>
             </a>
         </li>
         {{/each}}

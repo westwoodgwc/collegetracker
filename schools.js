@@ -24,7 +24,7 @@ var schools = [{
             "location": "Princeton, NJ 08544",
             "size": "8125",
             "AR": "7.4",
-            religious_affiliation: "N/A",
+            "religious_affiliation": "N/A",
             "male_female": "53-47",
             "race_ethnicity": {
                 American_Native: 1,
@@ -45,7 +45,7 @@ var schools = [{
             "location": "450 Serra Mall, Stanford, CA 94305",
             "size": "9,771",
             "AR": "4.7",
-            "religious affiliation": "N/A",
+            "religious_affiliation": "N/A",
             "male_female": "52.8-47.2",
             "race_ethnicity": {
                 Asian_American: 22,
@@ -65,10 +65,10 @@ var schools = [{
             "name": "California Institute of Technology",
             "location": "1200 E California Blvd, Pasadena, CA 91125",
             "size": "11319",
-            "AR": "8%",
-            "religious affiliation": "N/A",
+            "AR": "8",
+            "religious_affiliation": "N/A",
             "male_female": "61 - 39",
-            "race ethnicity": {
+            "race_ethnicity": {
                 Caucasian: 30.5,
                 Asian_American: 48,
                 Hispanic_Latino: 13.4,
@@ -86,8 +86,8 @@ var schools = [{
             "name": "Harvard University",
             "location": "Cambridge, MA 02138",
             size: "21,000",
-            AR: "5.2%",
-            "religious affiliation": "N/A",
+            AR: "5.2",
+            "religious_affiliation": "N/A",
             "male_female": "53 - 47" ,
             "race_ethnicity": {
                 Caucasian: 47.6,
@@ -108,8 +108,8 @@ var schools = [{
         "name": "Yale University",
         "location": "New Haven, CT 06520",
         "size": "12,336",
-        "AR": "6.3%",
-        "religious affiliation": "N/A",
+        "AR": "6.3",
+        "religious_affiliation": "N/A",
         "male_female": "51-49",
         "race_ethnicity": {
             African_American: 6.8,
@@ -129,8 +129,8 @@ var schools = [{
     "name": "Duke University",
     "location": "Durham, NC 27708",
     "size": "14,950",
-    "AR": "10.4%",
-    "religious affiliation": "N/A",
+    "AR": "10.4",
+    "religious_affiliation": "N/A",
     "male_female": "51.1-49.9",
     "race_ethnicity": {
         American_Native: 0.6,
@@ -149,9 +149,9 @@ var schools = [{
 }, {
     "name": "University of Pennsylvania",
     "location": "Philadelphia, PA 19104",
-    size: "9,746",
-    AR: "9.4",
-    religious_affiliation: "N/A",
+    "size": "9,746",
+    "AR": "9.4",
+    "religious_affiliation": "N/A",
     "male_female": "50 - 50",
     "race_ethnicity": {
         African_American: 7.01,
@@ -166,13 +166,13 @@ var schools = [{
         "ed_due_date": "November 1",
         "due_date": "January 5",
         },
-    "id": "8%"
+    "id": "8"
 }, {
     "name": "Rice University",
     "location": "Houston, TX 77005",
     size: "6,621",
-    AR: "15.1%",
-    "religious affiliation": "N/A",
+    AR: "15.1",
+    "religious_affiliation": "N/A",
     "male_female": "52 - 48",
     "race_ethnicity": {
         African_American: 11,
@@ -191,7 +191,7 @@ var schools = [{
     "name": "Columbia University",
     "location": "116th St & Broadway, New York, NY 10027",
     size: "30,304",
-    AR: "blue",
+    AR: "6",
     "religious_affiliation": "N/A",
     "male_female": "51-49",
     "race_ethnicity": {
@@ -211,7 +211,7 @@ var schools = [{
     "name": "Dartmouth College",
     "location": "Hanover, NH 03755",
     "size": "6,298",
-    "AR": "10.3%",
+    "AR": "10.3",
     "religious_affiliation": "N/A",
     "male_female": "50.7-49.3",
     "race_ethnicity": {
@@ -231,9 +231,9 @@ var schools = [{
 }, {
     "name": "Carnegie Mellon",
     "location": "5000 Forbes Ave, Pittsburgh, PA 15213",
-    size: "12991",
-    AR: "25%",
-    religious_affiliation: "N/A",
+    "size": "12991",
+    "AR": "25",
+    "religious_affiliation": "N/A",
     "male_female": "56 - 44" ,
     "race_ethnicity": {
         Caucasian: 45.3,
@@ -253,7 +253,7 @@ var schools = [{
     "name": "Cornell University",
     "location": "Ithaca, NY 14850",
     size: "21,850",
-    "AR": "14%",
+    "AR": "14",
     "religious_affiliation": "N/A",
     "male_female": "49-51",
     "race_ethnicity": {
@@ -274,7 +274,7 @@ var schools = [{
     "name": "University of California - Berkeley ",
     "location": "110 Sproul Hall Berkeley, CA ",
     "size": "27126 ",
-    "AR": "16.9%",
+    "AR": "16.9",
     "religious_affiliation": "N/A",
     "male_female": "48 - 52 ",
     "race_ethnicity": {
@@ -295,7 +295,7 @@ var schools = [{
     "name": "Brown University",
     "location": "Providence, RI 02912",
     "size": "8,848",
-    "AR": "9%",
+    "AR": "9",
     "religious_affiliation": "N/A",
     "male_female": "48 - 52 ",
     "race_ethnicity": {
@@ -315,7 +315,7 @@ var schools = [{
     "name": "John Hopkins University",
     "location": "Baltimore, MD 21218",
     "size": "21,726",
-    "AR": "11.4%",
+    "AR": "11.4",
     "religious_affiliation": "N/A",
     "male_female": "47-53",
     "race_ethnicity": {
@@ -335,7 +335,7 @@ var schools = [{
     name: "Harvey Mudd College",
     "location": "301 Platt Blvd, Claremont, CA 91711",
     size: 812,
-    "AR": "13.6%",
+    "AR": "13.6",
     "religious_affiliation": "N/A",
     "male_female": "54-46",
     "race_ethnicity": {
@@ -356,7 +356,7 @@ var schools = [{
     "name": "Vanderbilt University",
     "location": "2201 West End Ave, Nashville, TN 37235",
     "size": "12,686",
-    "AR": "11.7%",
+    "AR": "11.7",
     "religious_affiliation": "N/A",
     "male_female": "51-49",
     "race_ethnicity": {
@@ -378,7 +378,7 @@ var schools = [{
     "name": "Juilliard University",
     "location": "60 Lincoln Center Plaza, New York, NY 10023",
     "size": "995",
-    "AR": "6.7%",
+    "AR": "6.7",
     "religious_affiliation": "N/A",
     "male_female": "56 - 44",
     "race_ethnicity": {
@@ -398,7 +398,7 @@ var schools = [{
     "name": " Tufts University",
     "location": "Medford, MA 02155",
     "size": "10,872",
-    "AR": "14%",
+    "AR": "14",
     "religious_affiliation": "N/A",
     "male_female": "51-49",
     "race_ethnicity": {

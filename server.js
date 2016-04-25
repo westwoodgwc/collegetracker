@@ -61,9 +61,7 @@ router.get('/random', function (req, res) {
   });
 });
 
-router.get("/college/mit", function(req, res) {
-  res.render("details.hbs", schools[0]);
-})
+
 
 
 

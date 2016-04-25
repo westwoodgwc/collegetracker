@@ -34,7 +34,7 @@ var schools = [{
                 Caucasian: 45.4,
                 Other: 18,
             },
-            "imageurl": "http://www.whatibeproject.com/wp-content/uploads/2012/04/princeton-university.png",
+            "imageurl": "https://irs.princeton.edu/sites/irs/files/irs_logo.png",
             "duedate":{
                 "ed_due_date":"November 1",
                 "due_date": "January 1" ,
@@ -97,7 +97,7 @@ var schools = [{
                 American_Native: .1,
                 Other: 19.1,
         },
-        "imageurl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/MIT_Seal.svg/1024px-MIT_Seal.svg.png",
+        "imageurl": "http://media.www.harvard.edu/user13/harvard_shield_wreath.png",
         "duedate":{
             "ed_due_date": "November 1",
             "due_date": "January 1",
@@ -161,7 +161,7 @@ var schools = [{
         American_Native: 1,
         Other: 17.59,
 },
-    "imageurl": "http://www.userlogos.org/files/logos/MShadows/penn1.png",
+    "imageurl": "http://www.roger-raufer.com/images/UPenn_logo.gif",
     "duedate":{
         "ed_due_date": "November 1",
         "due_date": "January 5",
@@ -222,7 +222,7 @@ var schools = [{
         Caucasian: 51.6,
         Other: 15,
     },
-    "imageurl": "https://upload.wikimedia.org/wikipedia/en/6/6a/Dartmouth_College_logo.png",
+    "imageurl": "http://cf.juggle-images.com/matte/white/280x280/dartmouth-big-green-alternate-logo-primary.jpg",
         "duedate":{
         "ed_due_date": "November 1",
         "due_date": "January 1",
@@ -419,4 +419,4 @@ var schools = [{
 
 module.exports = {
     data: schools
-}
+};

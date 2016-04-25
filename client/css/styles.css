@@ -1,3 +1,63 @@
+
+.stressedButton
+{
+    font-size: 18px;
+    font-family: 'Fauna One', serif;
+}
+
+#title1
+{
+    font-family: 'Megrim', cursive;
+    background-color: #e6e6e6;
+    font-size: 40px;
+    color: #1a8cff;
+    
+}
+
+#header
+{
+    font-family: 'Merriweather';
+    background-color: #e6e6e6;
+    font-size: 25px;
+    color: #1a8cff;
+    
+}
+
+#title
+{ 
+    font-family: 'Megrim', cursive;
+    background-color: #e6e6e6;
+    font-size: 40px;
+    color: gray;
+    
+}
+
+#stressedButton
+{
+    font-family: 'Fauna One', serif;
+    font-size: 18px;
+    text-decoration: bold;
+}
+
+#college
+{
+    font-family: 'Fauna One', serif;
+}
+
+#heading
+{
+    font-family: "Merriweather", bold;
+    color: gray;
+    font-size: 110%;
+    background-color: #fbfbfb;
+}
+
+h2
+{
+    color: gray;
+    font-family: "Merriweather", bold;
+    font-size: 110%;
+}
 #stressedButton {
     font-size: 120%;
 }

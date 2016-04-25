@@ -13,10 +13,10 @@
 
 <body>
     <div data-role="header">
-      <h1>Details about {{name}}</h1>
+      <h2>Details about {{name}}</h2>
     </div>
     
-    <div data-role="content" class="detailsPage">
+    <div data-role="content" class="detailsPage" id="college">
         <h2>{{name}}</h2>
         <img class="detailsImage" src="{{imageurl}}"/>
         <br/>
@@ -24,13 +24,17 @@
         <p>Regular Decision: {{duedate.due_date}}</p>
         <p>Location: {{location}}</p>
         <p>Size: {{size}}</p>
-        <p>Acceptance Rate: {{AR}}%</p>
+        <p>Acceptance Rate: {{AR}}</p>
         <p>Religious Affiliation: {{religious_affiliation}}</p>
         <p>Male-Female Ratio: {{male_female}}</p>
         <p>Race/Ethnicity</p>
+        
+        
+        
     </div>
 
     <div data-role="footer" data-position="fixed" data-tap-toggle="false">		
     </div>
+    
   
 </body>

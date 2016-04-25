@@ -2,7 +2,7 @@ var schools = [{
             "name": "Massachusetts Institute of Technology",
             "location": "77 Massachusetts Ave, Cambridge, MA 02139",
             "size": "11319",
-            "AR": "7.9%",
+            "AR": "7.9",
             "religious_affiliation": "N/A",
             "male_female": "54.5-45.5",
             "race_ethnicity": {
@@ -23,7 +23,7 @@ var schools = [{
             "name": "Princeton University",
             "location": "Princeton, NJ 08544",
             "size": "8125",
-            "AR": "7.4%",
+            "AR": "7.4",
             religious_affiliation: "N/A",
             "male_female": "53-47",
             "race_ethnicity": {
@@ -44,7 +44,7 @@ var schools = [{
             "name": "Stanford University",
             "location": "450 Serra Mall, Stanford, CA 94305",
             "size": "9,771",
-            "AR": "4.7%",
+            "AR": "4.7",
             "religious affiliation": "N/A",
             "male_female": "52.8-47.2",
             "race_ethnicity": {
@@ -65,7 +65,7 @@ var schools = [{
             "name": "California Institute of Technology",
             "location": "1200 E California Blvd, Pasadena, CA 91125",
             "size": "11319",
-            "AR": "8%",
+            "AR": "8",
             "religious affiliation": "N/A",
             "male_female": "61 - 39",
             "race ethnicity": {
@@ -86,7 +86,7 @@ var schools = [{
             "name": "Harvard University",
             "location": "Cambridge, MA 02138",
             size: "21,000",
-            AR: "5.2%",
+            AR: "5.2",
             "religious affiliation": "N/A",
             "male_female": "53 - 47" ,
             "race_ethnicity": {
@@ -150,7 +150,7 @@ var schools = [{
     "name": "University of Pennsylvania",
     "location": "Philadelphia, PA 19104",
     size: "9,746",
-    AR: "9.4%",
+    AR: "9.4",
     religious_affiliation: "N/A",
     "male_female": "50 - 50",
     "race_ethnicity": {
@@ -420,3 +420,4 @@ var schools = [{
 module.exports = {
     data: schools
 };
+

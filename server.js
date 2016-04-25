@@ -9,6 +9,8 @@ var Chance = require('chance'),
 var router = express();
 var server = http.createServer(router);
 
+var schoolData = require('./schools.js');
+
 router.use(express.static(path.resolve(__dirname, 'client')));
 
 
@@ -17,30 +19,32 @@ server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
   console.log("Listening", addr.address + ":" + addr.port);
 });
 
-var schools = [{
-  id: 1,
-  imageurl: "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/MIT_Seal.svg/1024px-MIT_Seal.svg.png",
-  collegename: "Massachusetts Institute of Technology",
-  duedate: {
-    ed_due_date: "NONE",
-    due_date: "January 1st, 2016"
-  }
-}, {
-  id: 2,
-  imageurl:"http://sadermedia.com/wp-content/uploads/2015/09/ut-logo.png",
-  collegename: "University of Texas",
-  duedate: {
-    ed_due_date: "December 25th, 2016",
-    due_date: "January 1st, 2016"
-  }
-}];
-
 router.get('/', function (req,res) {
-  res.render('main.hbs', {
-    schools: schools
-  });
+  res.render('main.hbs', {schools: schoolData.data});
 });
 
+var findById = function(items, id) {
+  for (var i = 0; i < items.length; i++) {
+    if (items[i].id == id) {
+      return items[i];
+    }
+  }
+}
+
+router.get("/college/:id", function(request, response) {
+  
+  var id = parseInt(request.params.id);
+  var selected_school = findById(schoolData.data, id);
+  
+  if (selected_school != null) {
+    console.log("showing college", selected_school);
+    response.render("details.hbs", selected_school);
+  } else {
+    console.log("Unknown school:" + id);
+    response.redirect('/');
+  }
+  
+})
 
 router.get('/random', function (req, res) {
   res.render('stressed.hbs', {
@@ -58,7 +62,7 @@ router.get('/random', function (req, res) {
 });
 
 router.get("/college/mit", function(req, res) {
-  res.render("")
+  res.render("details.hbs", schools[0]);
 })
 
 

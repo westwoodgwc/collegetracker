@@ -8,7 +8,7 @@ var schools = [{
             "race_ethnicity": {
                 American_Native: 2,
                 Asian_American: 32,
-                African American: 10,
+                African_American: 10,
                 Hispanic_Latino: 14,
                 Caucasian: 51,
                 Other: 1,
@@ -34,7 +34,7 @@ var schools = [{
                 Caucasian: 45.4,
                 Other: 18,
             },
-            "imageurl":http://www.whatibeproject.com/wp-content/uploads/2012/04/princeton-university.png,
+            "imageurl": "http://www.whatibeproject.com/wp-content/uploads/2012/04/princeton-university.png",
             "duedate":{
                 "ed_due_date":"November 1",
                 "due_date": "January 1" ,
@@ -55,10 +55,10 @@ var schools = [{
                 Caucasian: 41,
                 American_Native: 1,
             },
-            "imageurl": https://d9tyu2epg3boq.cloudfront.net/institutions/stanford.png,
+            "imageurl": "https://d9tyu2epg3boq.cloudfront.net/institutions/stanford.png",
             "duedate":{ 
-                "ed_due_date": November 1,
-                "due_date": January 3
+                "ed_due_date": "November 1st",
+                "due_date": "January 3"
             },
             "id":"3"
         }, {
@@ -67,14 +67,14 @@ var schools = [{
             "size": "11319",
             "AR": "8%",
             "religious affiliation": "N/A",
-            "male_female: "61 - 39 ",
+            "male_female": "61 - 39",
             "race ethnicity": {
-                Caucasian: 30.5
+                Caucasian: 30.5,
                 Asian_American: 48,
                 Hispanic_Latino: 13.4,
-                African American: 1.7,
+                African_American: 1.7,
                 American_Native: 0.1,
-                Other 6.2,
+                Other: 6.2,
             },
             "imageurl": "https://upload.wikimedia.org/wikipedia/en/e/ef/Caltech_logo.svg",
             "duedate":{
@@ -87,9 +87,9 @@ var schools = [{
             "location": "Cambridge, MA 02138",
             size: "21,000",
             AR: "5.2%",
-            religious affiliation: "N/A",
-            "male_female: "53 - 47 " ,
-            "race_ethnicity: {
+            "religious affiliation": "N/A",
+            "male_female": "53 - 47" ,
+            "race_ethnicity": {
                 Caucasian: 47.6,
                 Asian_American: 17.2,
                 Hispanic_Latino: 9.7,
@@ -111,9 +111,9 @@ var schools = [{
         "AR": "6.3",
         "religious affiliation": "N/A",
         "male_female": "51-49",
-        "race_ethnicity: {
-            African_American 6.8,
-            Asian_American 16.5,
+        "race_ethnicity": {
+            African_American: 6.8,
+            Asian_American: 16.5,
             Hispanic_Latino: 11,
             Other: 16.4,
             American_Native: 0.6,
@@ -127,7 +127,7 @@ var schools = [{
     "id":"6"
 }, {
     "name": "Duke University",
-    "location": "Durham, NC 27708"
+    "location": "Durham, NC 27708",
     "size": "14,950",
     "AR": "10.4",
     "religious affiliation": "N/A",
@@ -151,10 +151,9 @@ var schools = [{
     "location": "Philadelphia, PA 19104",
     size: "9,746",
     AR: "9.4%",
-    religious affiliation: "N/A",
-    "male_female: "
-    50 - 50 " ,
-    "race_ethnicity: {
+    religious_affiliation: "N/A",
+    "male_female": "50 - 50",
+    "race_ethnicity": {
         African_American: 7.01,
         Caucasian: 44.3,
         Hispanic_Latino: 10.3,
@@ -175,19 +174,19 @@ var schools = [{
     AR: "15.1",
     "religious affiliation": "N/A",
     "male_female": "52 - 48",
-    "race_ethnicity: {
+    "race_ethnicity": {
         African_American: 11,
         Hispanic_Latino: 15,
         Asian_American: 22,
         Caucasian: 42,
         Other: 10,
-},
-"imageurl": "http://www.iraqenergy.org/images/Rice%20University_8a184.jpg",
-duedate":{
-    "ed_due_date": "November 1",
-    "due_date": "January 1"
-},
-"id":"9"
+    },
+    "imageurl": "http://www.iraqenergy.org/images/Rice%20University_8a184.jpg",
+    "duedate" : {
+        "ed_due_date": "November 1",
+        "due_date": "January 1"
+    },
+    "id":"9"
 }, {
     "name": "Columbia University",
     "location": "116th St & Broadway, New York, NY 10027",
@@ -202,7 +201,7 @@ duedate":{
         Caucasian: 36,
         Other: 10,
     },
-    "imageurl": "https://d28htnjz2elwuj.cloudfront.net/wp-content/uploads/2013/11/Columbia_University_Logo.jpeg,
+    "imageurl": "https://d28htnjz2elwuj.cloudfront.net/wp-content/uploads/2013/11/Columbia_University_Logo.jpeg",
     "duedate": {
         "ed_due_date": "November 1",
         "due_date": "January 1",
@@ -234,9 +233,9 @@ duedate":{
     "location": "5000 Forbes Ave, Pittsburgh, PA 15213",
     size: "12991",
     AR: "25",
-    religious affiliation: "N/A",
-    "male_female: "56 - 44 " ,
-    "race_ethnicity: {
+    religious_affiliation: "N/A",
+    "male_female": "56 - 44" ,
+    "race_ethnicity": {
         Caucasian: 45.3,
         Asian_American: 28.5,
         Hispanic_Latino: 8.7,
@@ -244,18 +243,18 @@ duedate":{
         American_Native: 0.1,
         Other: 11.4,
     },
-    "imageurl":https://upload.wikimedia.org/wikipedia/en/b/bb/Carnegie_Mellon_University_seal.svg,
-    "duedate":{
-        "ed_due_date":"November 1"
+    "imageurl": "https://upload.wikimedia.org/wikipedia/en/b/bb/Carnegie_Mellon_University_seal.svg",
+    "duedate": {
+        "ed_due_date":"November 1",
         "due_date": "January 1"
     },
-    "id":"12"
-}, {
+        "id":"12"
+    }, {
     "name": "Cornell University",
     "location": "Ithaca, NY 14850",
     size: "21,850",
     "AR": "14",
-    "religious_affiliation": "N/A"
+    "religious_affiliation": "N/A",
     "male_female": "49-51",
     "race_ethnicity": {
         Asian_American: 16.9,
@@ -288,12 +287,12 @@ duedate":{
     },
     "imageurl":"http://www.berkeley.edu/brand/img/seals/ucbseal_139_540.png",
     "duedate":{
-        "ed_due_date": N/A
-        "due_date": November 30
+        "ed_due_date": "N/A",
+        "due_date": "November 30"
     },
     "id":"14"
 }, {
-    "name": Brown University ",
+    "name": "Brown University",
     "location": "Providence, RI 02912",
     "size": "8,848",
     "AR": "9",
@@ -316,10 +315,10 @@ duedate":{
     "name": "John Hopkins University",
     "location": "Baltimore, MD 21218",
     "size": "21,726",
-    "AR": "11.4"
+    "AR": "11.4",
     "religious_affiliation": "N/A",
-    "male_female": "47-53"
-    "race_ethnicity: {
+    "male_female": "47-53",
+    "race_ethnicity": {
         American_Native: 0.2,
         Asian_American: 23.7,
         African_American: 5.6,
@@ -347,10 +346,10 @@ duedate":{
         Caucasian: 50.3,
         Other: 7.1,
     },
-    "imageurl": http://www.hmcemergency.info/wp-content/themes/hmc-emergency-site/images/hmc-logo.png,
+    "imageurl": "http://www.hmcemergency.info/wp-content/themes/hmc-emergency-site/images/hmc-logo.png",
     "duedate": {
-        ed_due_date: November 15
-        due_date: January 5
+        ed_due_date: "November 15",
+        due_date: "January 5"
     },
     "id":"17"
 }, {
@@ -370,8 +369,8 @@ duedate":{
     },
     "imageurl": "https://d28htnjz2elwuj.cloudfront.net/wp-content/uploads/2013/11/Vanderbilt_University_Logo.jpg",
     "duedate": {
-        ed_due_date: November 1
-        due_date: January 5
+        ed_due_date: "November 1",
+        due_date: "January 5"
     },    
     "id":"18"
 
@@ -391,11 +390,10 @@ duedate":{
     },
     "imageurl": "http://keepingthebluesalive.org/wp-content/uploads/2012/03/juilliard.jpg",
     "duedate": {
-        ed_due_date: N/A
-        due_date: December 1
+        ed_due_date: "N/A",
+        due_date: "December 1"
     },
     "id": "19"
-    }
 },{
     "name": " Tufts University",
     "location": "Medford, MA 02155",
@@ -408,14 +406,17 @@ duedate":{
         Hispanic_Latino: 6.7,
         White: 57.1,
         Asian_American: 11,
-        Other: 12.6.
+        Other: 12.6
     },
     "imageurl": "http://staticx.ibncollege.com/wcsstore/ExtendedSitesCatalogAssetStore/754_900_10_1035530_NI/images/LARGEIMAGE_750286.jpg",
     "duedate": {
-        ed_due_date: November 1
-        due_date: January 1
+        ed_due_date: "November 1",
+        due_date: "January 1"
     },
     "id": "20"
-    }
+    
+}];
 
-]
+module.exports = {
+    data: schools
+}

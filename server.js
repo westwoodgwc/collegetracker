@@ -60,8 +60,3 @@ router.get('/random', function (req, res) {
     gif: chance.pickone(["stressed1.gif", "stressed2.gif", "stressed3.gif", "stressed4.gif", "stressed5.gif"])
   });
 });
-
-
-
-
-

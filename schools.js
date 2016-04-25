@@ -2,7 +2,7 @@ var schools = [{
             "name": "Massachusetts Institute of Technology",
             "location": "77 Massachusetts Ave, Cambridge, MA 02139",
             "size": "11319",
-            "AR": "7.9\%",
+            "AR": "7.9",
             "religious_affiliation": "N/A",
             "male_female": "54.5-45.5",
             "race_ethnicity": {
@@ -23,7 +23,7 @@ var schools = [{
             "name": "Princeton University",
             "location": "Princeton, NJ 08544",
             "size": "8125",
-            "AR": "7.4%",
+            "AR": "7.4",
             religious_affiliation: "N/A",
             "male_female": "53-47",
             "race_ethnicity": {
@@ -44,7 +44,7 @@ var schools = [{
             "name": "Stanford University",
             "location": "450 Serra Mall, Stanford, CA 94305",
             "size": "9,771",
-            "AR": "4.7%",
+            "AR": "4.7",
             "religious affiliation": "N/A",
             "male_female": "52.8-47.2",
             "race_ethnicity": {
@@ -191,7 +191,7 @@ var schools = [{
     "name": "Columbia University",
     "location": "116th St & Broadway, New York, NY 10027",
     size: "30,304",
-    AR: "6%",
+    AR: "blue",
     "religious_affiliation": "N/A",
     "male_female": "51-49",
     "race_ethnicity": {

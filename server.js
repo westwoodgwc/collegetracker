@@ -45,7 +45,7 @@ router.get("/college/:id", function(request, response) {
     response.redirect('/');
   }
   
-})
+});
 
 router.get('/random', function (req, res) {
   res.render('stressed.hbs', {
